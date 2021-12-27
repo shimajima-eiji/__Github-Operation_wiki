@@ -33,6 +33,9 @@ https://github.com/shimajima-eiji/__Github-Operation/issues/54
 
 が、あっても邪魔にならないので、システム移行やGithubProjectのBeta版が正式リリース、また運用した時に困らないよう慣例に従う事が望ましい。
 
+なお、複数のプロジェクトに係る場合は`[リポジトリ名][プロジェクト1, プロジェクト2]概要`とすることで解決できる。  
+https://github.com/shimajima-eiji/__Github-Operation/issues/29
+
 #### 一つのリポジトリにIssueを集約した弊害と対策
 ##### 2021/12/28追記
 使い方にもよるが、粒度をどのように分けるか？というのが主なところだろう。  
