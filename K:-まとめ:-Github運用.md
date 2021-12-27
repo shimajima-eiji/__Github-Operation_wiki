@@ -45,6 +45,7 @@ https://github.com/shimajima-eiji/__Github-Operation/wiki/K:-%E3%81%BE%E3%81%A8%
 
 - R(Repository):リポジトリ名:テーマ
 - P(Project):プロジェクト名:テーマ
+- T(Template):大分類:項目
 - K(Knowledge):任意カテゴリ名:テーマ
 - O(Other):テーマ
 
