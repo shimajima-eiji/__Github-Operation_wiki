@@ -87,6 +87,8 @@ https://github.com/shimajima-eiji/__Github-Operation/issues/59
 
 だった。
 
+#### カラム解説
+
 ---
 
 # 複合ケース
