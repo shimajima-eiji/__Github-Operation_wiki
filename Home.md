@@ -7,6 +7,7 @@
 
 - R(Repository):リポジトリ名:テーマ
 - P(Project):プロジェクト名:テーマ
+- K(Knowledge):テーマ
 - O(Other):テーマ
 
 と、している。
