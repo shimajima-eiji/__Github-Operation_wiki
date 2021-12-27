@@ -87,7 +87,14 @@ https://github.com/shimajima-eiji/__Github-Operation/issues/59
 
 だった。
 
-#### カラム解説
+### カラム解説
+以下プロジェクトを例に解説する。  
+https://github.com/users/shimajima-eiji/projects/4/views/7
+
+先行して解説記事を書いているので、以下も参考にされたし。  
+https://qiita.com/nomurasan/items/bdecca0f0a4397cbd6ca
+
+#### 検討/振り分け中
 
 ---
 
