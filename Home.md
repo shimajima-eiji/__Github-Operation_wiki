@@ -7,6 +7,7 @@
 
 - R(Repository):リポジトリ名:テーマ
 - P(Project):プロジェクト名:テーマ
+- T(Template):大分類:項目
 - K(Knowledge):テーマ
 - O(Other):テーマ
 
