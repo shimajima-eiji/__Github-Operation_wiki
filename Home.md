@@ -1,1 +1,3 @@
-Welcome to the Projects wiki!
+# 使い方
+サイドバーは「リポジトリ名:テーマ」としている。
+テーマがないものは、READMEとしての位置付けである。
