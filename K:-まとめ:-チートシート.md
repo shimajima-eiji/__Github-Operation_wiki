@@ -75,3 +75,56 @@ _斜め文字_
 +コードブロック
 +```
 ```
+
+### テーブル
+|項目１|項目２|
+|---|---|
+|テスト|テスト|
+
+```
+|項目１|項目２|
+|---|---|
+|テスト|テスト|
+```
+
+### 絵文字
+[多いので詳細](https://www.webfx.com/tools/emoji-cheat-sheet/)👍 
+
+😄 
+```
+:smile:
+```
+
+## HTMLタグを打ち込むもの
+### アコーディオン
+<details><summary>見出し文字</summary><div>
+内容
+</div></details>
+
+```
+<details><summary>見出し文字(クリックで開閉)</summary><div>
+内容
+</div></details>
+```
+
+見やすさを考慮するなら
+
+<details><summary>見出し文字(クリックで開閉)</summary><div>
+
+---
+
+内容
+
+---
+
+</div></details>
+
+```
+<details><summary>見出し文字(クリックで開閉)</summary><div>
+---
+内容
+---
+</div></details>
+```
+
+https://qiita.com/nomurasan/items/29a704baa6d91def607c
