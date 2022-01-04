@@ -60,15 +60,20 @@ Pagesの話になるが、これはいいなと思った。階層化の観点か
 ただし、本来のgit logのような細かい履歴などを追いかけるのに適さないように思うので、何かしら対応を考えなければならない。
 
 #### 対策
-以下コマンドを実施する。
+[詳細](https://qiita.com/nomurasan/items/bf8afa6de745695fe8f1)
 
+##### 初回実行時
 ```
 git clone https://github.com/shimajima-eiji/__Github-Operation.wiki.git
 # リポジトリがない場合、先にミラーリポジトリを作っておく
 git push --mirror https://github.com/shimajima-eiji/__Github-Operation_wiki.git
 ```
 
-[詳細](https://qiita.com/nomurasan/items/bf8afa6de745695fe8f1)
+##### 二度目移行の実行時
+```
+git pull
+git push --mirror https://github.com/shimajima-eiji/__Github-Operation_wiki.git
+```
 
 ### ページにカテゴリやタグ、トピックを設定できない
 普通にページを作るだけなら気にならないが、ブログのような運用は難しい。
