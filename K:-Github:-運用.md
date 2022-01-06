@@ -35,6 +35,7 @@ mainあるいはmasterブランチへのpushを禁止する。
   - main
 - Protect matching branches
   - Require a pull request before merging: PRを強制する
+    - Require approvals: デフォルトでチェック済みだが、これを外す。コードレビューが必要な場合につけるが、個人開発なのでレビュー不要。
 - Include administrators: 管理者にもルールを適用する（個人開発では必要）
 
 ---
