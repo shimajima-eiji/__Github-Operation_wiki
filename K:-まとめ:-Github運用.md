@@ -23,6 +23,18 @@
 
 基本的に上記ルールに基づく
 
+### pushルール
+ドキュメント用のリポジトリ以外（主に開発用）はmainあるいはmasterブランチへのpushを禁止する。  
+pull requestで経緯を書いて明文化することで、github-changesで管理できる。
+
+設定方法については、https://github.com/shimajima-eiji/(ブランチ名)/settings/branches で以下の通り設定する
+
+- Branch name pattern
+  - main
+- Protect matching branches
+  - Require a pull request before merging: PRを強制する
+- Include administrators: 管理者にもルールを適用する（個人開発では必要）
+
 ---
 
 # Issue
