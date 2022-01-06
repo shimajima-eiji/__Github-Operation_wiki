@@ -114,6 +114,7 @@ https://github.com/shimajima-eiji/__Github-Operation/wiki/K:-%E3%81%BE%E3%81%A8%
 |Repository|R:リポジトリ名:テーマ||
 |Project|P:プロジェクト名:テーマ||
 |Estimate|E:大分類:項目|考察関連。大分類も必須なので運用時注意|
+|Template|T:大分類:項目|主にページ構成に必要なファイル。自分用とも|
 |Knowledge|K:任意カテゴリ名:テーマ||
 |Other|O:テーマ|基本的に不使用だが、上記以外にも増える可能性有|
 
