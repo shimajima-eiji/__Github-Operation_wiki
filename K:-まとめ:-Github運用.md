@@ -24,8 +24,10 @@
 基本的に上記ルールに基づく
 
 ### pushルール
-ドキュメント用のリポジトリ以外（主に開発用）はmainあるいはmasterブランチへのpushを禁止する。  
-pull requestで経緯を書いて明文化することで、github-changesで管理できる。
+mainあるいはmasterブランチへのpushを禁止する。  
+
+- ドキュメント用: 更新しないと画面が見れない事もあり、commitメッセージを書き忘れる要因が多いのでgithub-changesで見た時に何をやったのかわかりにくい。PRには詳細が書けるのでそちらで管理。
+- 開発用(特にGAS): 全てのファイルを強制的に書き換えることができてしまうので、これを制限する。また、force pushを禁止したい。
 
 設定方法については、https://github.com/shimajima-eiji/(ブランチ名)/settings/branches で以下の通り設定する
 
