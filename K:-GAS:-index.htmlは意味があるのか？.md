@@ -1,6 +1,7 @@
 ## 結論
 その気になれば、GASでホスティングしたURL自体を使ってサイトとして扱うことはできなくはない。  
-が、かなり手間がかかって面倒臭い。
+が、かなり手間がかかって面倒臭い。  
+https://qiita.com/taromorimotohf/items/82a02bdeb21b1d74c5e8
 
 似たようなサービスに[Firebase](https://firebase.google.com)があるので、こちらを使った方が利口か。  
 また、GHPを使う方法もある。
