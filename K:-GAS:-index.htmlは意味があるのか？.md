@@ -3,6 +3,27 @@
 が、かなり手間がかかって面倒臭い。  
 https://qiita.com/taromorimotohf/items/82a02bdeb21b1d74c5e8
 
+```
+// GAS
+function doGet(e) {
+  var template = '(htmlファイル名。拡張子除く)';
+  return HtmlService.createTemplateFromFile(template).evaluate();
+}
+```
+
+```
+<!-- html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    ホスティング
+  </body>
+</html>
+```
+
 似たようなサービスに[Firebase](https://firebase.google.com)があるので、こちらを使った方が利口か。  
 また、GHPを使う方法もある。
 
