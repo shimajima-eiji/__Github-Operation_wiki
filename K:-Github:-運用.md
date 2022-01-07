@@ -177,3 +177,6 @@ https://qiita.com/nomurasan/items/bdecca0f0a4397cbd6ca
 
 ただし、管理が煩雑になるデメリットもあるので、個人開発ならいざ知らずチーム開発では採用すべきではない。  
 https://github.com/shimajima-eiji/__Github-Operation/issues/59
+
+# Gist
+[Wiki内専用ページ](https://github.com/shimajima-eiji/__Github-Operation/wiki/K:-Gist)
