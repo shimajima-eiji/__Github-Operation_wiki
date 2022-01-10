@@ -10,7 +10,7 @@ MessagingAPIを活用する方法は、従来のリッチメニュー設定で�
 
 ## 技術要件
 |ツール|操作手順|用途|
-|---|---|
+|---|---|---|
 |[GAS](https://script.google.com/home)|プロジェクト|本来MessagingAPIでやることを全部担う|
 |[LINEBotのリッチメニュー設定](https://manager.line.biz)|トークルーム→リッチメニュー|LINEの画面側の設定。|
 |[LINEBotのMessagingAPI設定](https://developers.line.biz/console)|Messeging API→Webhook　Settings|GASのWebhookURLを設定|
