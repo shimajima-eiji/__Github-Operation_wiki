@@ -1,19 +1,31 @@
 ## テンプレート
 ```
 /*
-# 環境変数
-|キー|値|用途|
-|---|---|---|
+## 経緯
 
-# 使用ライブラリ
-|キー|値|用途|
-|---|---|---|
 
-# リポジトリURL
-https://github.com/shimajima-eiji/--GAS_v5_
+## 主要リンク
+- [リポジトリ](https://github.com/shimajima-eiji-GAS)
+- [LineBot:UI](https://manager.line.biz/account/@？？？/setting/messaging-api)
+- [LibeBot:Messaging API](https://developers.line.biz/console/channel/？？？？？？？？？？/messaging-api)
+  - Channel-ID: 
 
-# テンプレートバージョン
-ver1.2022_01_11
+## バージョン
 
+
+## 環境変数
+|キー|登録する値|用途|備考|
+|----|---------|---|----|
+
+## ライブラリ
+[Apps Script](https://github.com/shimajima-eiji/--GAS_v5_Household202201/blob/main/appsscript.json)を参照。
+
+|名称(userSymbol)|ID(libraryId)|バージョン(version)|用途|
+|---|---|---|---|
+
+## デバッガ
+
+## テンプレートのバージョン
+ver2022.01.11
 */
 ```
