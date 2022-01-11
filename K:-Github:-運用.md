@@ -22,6 +22,7 @@ https://github.com/shimajima-eiji?tab=repositories で見た時にどこを見�
   - エンジニア: __から始まるリポジトリ
   - スカウト: 通常通りのリポジトリ
   - 受講生: どちらも。ただしGithub就活・転職で必要なもの
+  - Github Pages: _で始まるリポジトリはPages設定をしても表示されない
 
 という前提のもと、以下のルールを設ける。
 
@@ -177,6 +178,12 @@ https://github.com/users/shimajima-eiji/projects/4/views/7
 https://qiita.com/nomurasan/items/bdecca0f0a4397cbd6ca
 
 #### 検討/振り分け中
+
+---
+
+# Github Pages
+### 公開したくないページは_で始める
+Github Pagesで公開しないだけで、Github上では公開される点に注意。
 
 ---
 
