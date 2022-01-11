@@ -6,7 +6,8 @@
 
 ## 主要リンク
 - [リポジトリ](https://github.com/shimajima-eiji-GAS)
-- [LineBot:UI](https://manager.line.biz/account/@？？？/setting/messaging-api)
+- [LineBot:UI](https://manager.line.biz/account/@？？？？？？？？/setting/messaging-api)
+  - Account-ID: 
 - [LibeBot:Messaging API](https://developers.line.biz/console/channel/？？？？？？？？？？/messaging-api)
   - Channel-ID: 
 
