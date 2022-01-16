@@ -157,6 +157,18 @@ https://github.com/shimajima-eiji/__Github-Operation/wiki/K:-%E3%81%BE%E3%81%A8%
 Wikiのタイトル・見出しは名前を変えると被リンクが全て無効になってしまうため、原則変えないようにする運用が望ましい。  
 あるいは、直接Wikiにリンクするのではなく、Issueなりを挟んでリンク先を管理できる仕組みにしたい。
 
+### Wikiのリポジトリをコントリビューションに含む
+`(リポジトリ名).wiki.git`はcloneできる。
+`git push --mirror (リポジトリ)`とすると、上書きが適用できる。
+
+例
+
+- Wikiがあるリポジトリ: https://github.com/shimajima-eiji/__Github-Operation
+  - .git: https://github.com/shimajima-eiji/__Github-Operation.git
+- WikiのURL: https://github.com/shimajima-eiji/__Github-Operation/wiki
+  - .git: https://github.com/shimajima-eiji/__Github-Operation.wiki.git
+- コントリビューションリポジトリ: https://github.com/shimajima-eiji/____Github-Operation_wiki
+
 ---
 
 # プロジェクト
