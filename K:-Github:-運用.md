@@ -197,7 +197,12 @@ https://qiita.com/nomurasan/items/bdecca0f0a4397cbd6ca
 
 # Github Pages
 ### 公開したくないページは_で始める
-Github Pagesで公開しないだけで、Github上では公開される点に注意。
+Github Pagesで公開しないだけで、Github上では公開される点に注意。  
+ただし、リポジトリ名が_で始めても、GithubPages設定をすれば表示できる。
+
+例
+- リポジトリ: https://github.com/shimajima-eiji/__Debug_Github
+- Github Pages: https://shimajima-eiji.github.io/__Debug_Github/
 
 ---
 
