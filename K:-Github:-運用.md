@@ -81,8 +81,10 @@ https://github.com/shimajima-eiji/__Github-Operation/issues/29
 
 ---
 
-# PR
-### ブランチ名:`(IssueNo)_(YYYYmmdd)_ver(N)_(ファイル名 or 目的)`
+# Pull Request(PR)
+プルリクエストについては、[Settings] -> [branches] -> [Branch protection rule]も検討する必要がある。
+
+### タイトル「ブランチ名:`(IssueNo)_(YYYYmmdd)_ver(N)_(ファイル名 or 目的)`」
 |項目|理由|
 |---|---|
 |IssueNo|開発はすべてIDDのため、必ずIssueが存在している|
@@ -113,6 +115,18 @@ Github就活・転職を考える上でせっかくのコントリビューシ�
 また、後で眺めた時にgit logが汚いと見る気がしなくなるのでmergeも使いたくない、という理由による。
 
 ※勘違いしがちだが、チーム開発でrebaseを使うと運用というよりチームメンバー全体への負荷が高まる傾向にあるので、git管理専門のメンバーがいた方がコードの品質が高まる傾向にある。
+
+### Branch protection rule
+見落としがちだが、これがないと直接mainにmergeできてしまう。　　
+主にGithubUIでドキュメンテーションをメインにやるなら良いが、コミットメッセージを適当につけてしまう（デフォルトがあるため）問題も無視できない。  
+そこで、コミットメッセージは適当でも、Project上で管理できるようにするのとコミットを束ねる意味でもPRは積極的に使っていくべきだ。
+
+設定項目は以下の通り。
+
+- Branch name pattern: main
+- Protect matching branches:
+  - Require a pull request before merging: PRを出さないとmergeできなくする
+- Include administrators: 【重要】管理者にもルールを適用する
 
 ---
 
