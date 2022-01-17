@@ -1,0 +1,27 @@
+name: Wiki_Contribute
+on:
+  push: 
+    branches:
+      - main
+  schedule:
+    - cron:  '0 1 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: WikiリポジトリをClone
+        run: |
+          git clone https://github.com/shimajima-eiji/__Github-Operation.wiki.git
+
+      - name: pushのためのconfig
+        run: |
+          git config --global user.email "${{ secrets.EMAIL }}"
+          git config --global user.name "shimajima-eiji"
+          
+      # commitに失敗した場合は、wikiを更新しなかった可能性が高い
+      - name: Commit files
+        run: |
+          git push --mirror https://github.com/shimajima-eiji/____Github-Operation_wiki.git
