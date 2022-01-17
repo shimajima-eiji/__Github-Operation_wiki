@@ -17,7 +17,9 @@ jobs:
           git clone https://github.com/shimajima-eiji/__Github-Operation.wiki.git
           
       - name: デバッグ
-        run: ls -laR
+        run: |
+          echo "github actions" >>README.md
+          ls -lR
 
       - name: pushのためのconfig
         run: |
