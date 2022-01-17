@@ -18,7 +18,6 @@ jobs:
           
       - name: デバッグ
         run: |
-          echo "github actions" >>README.md
           ls -lR
 
       - name: pushのためのconfig
@@ -29,6 +28,4 @@ jobs:
       # commitに失敗した場合は、wikiを更新しなかった可能性が高い
       - name: wikiリポジトリからこのリポジトリにpush
         run: |
-          git add -A
-          git commit -m "デバッグのため追記"
           git push --mirror https://github.com/shimajima-eiji/____Github-Operation_wiki.git
