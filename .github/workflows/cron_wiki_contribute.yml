@@ -15,6 +15,9 @@ jobs:
       - name: WikiリポジトリをClone
         run: |
           git clone https://github.com/shimajima-eiji/__Github-Operation.wiki.git
+          
+      - name: デバッグ
+        run: ls -laR
 
       - name: pushのためのconfig
         run: |
@@ -22,6 +25,6 @@ jobs:
           git config --global user.name "shimajima-eiji"
           
       # commitに失敗した場合は、wikiを更新しなかった可能性が高い
-      - name: Commit files
+      - name: wikiリポジトリからこのリポジトリにpush
         run: |
           git push --mirror https://github.com/shimajima-eiji/____Github-Operation_wiki.git
